@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+* {
+    margin: 0;  
+    padding: 0;
+  }
+ 
+.fundo {
+    background-image: url("teste.jpg");
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculadora{
+    position:absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+    margin: 3px;
+
+}
+
+.botao:hover{
+    background-color: black;
+}
+
+#resultado {
+    width: 207px;
+    background-color: white;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title1 {
+    text-align: center;
+    padding-top: 4%;
+    font-family: Pangolin;
+    font-size: 70px;
+    color: rgb(64, 162, 187);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    
+}
+
